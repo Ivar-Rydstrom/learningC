@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
-    printf("Hello World\n");
+    char name[] = "hello world what is up";
+    printf("%.*s", 6, name + 1);
     return 0;
 };
