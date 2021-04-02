@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 int main() {
-    char name[] = "hello world what is up";
-    printf("%.*s", 6, name + 1);
+    char word[] = "hello world";
+    printf(word);
+
     return 0;
 };
